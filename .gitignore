@@ -1,0 +1,36 @@
+# Ignore node_modules in both client and server
+client/node_modules/
+server/node_modules/
+
+# Ignore env file in server
+server/.env
+
+# Build files
+client/build/
+client/dist/
+server/dist/
+
+# Logs
+*.log
+logs/
+npm-debug.log*
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# IDE settings
+.vscode/
+.idea/
+
+# Coverage
+coverage/
+
+# Env examples
+*.env.local
+*.env.development
+*.env.production
+
+# Optional: lock files if you use yarn/npm
+yarn.lock
+pnpm-lock.yaml
